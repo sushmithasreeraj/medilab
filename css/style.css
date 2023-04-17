@@ -1,0 +1,142 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.content_section{
+	width:100%;
+	height:500px;
+	background-image:url('../image/hero-bg.jpg');
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+}	
+.header_section{
+	width:80%;
+	height:400px;
+	margin:0 auto;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	color:#19446F;
+	line-height:2;
+   
+}
+.header_section a{
+	text-decoration:none;
+	color:white;
+	background-color:blue;
+	text-align:center;
+	width:200px;
+	border-radius:20px;
+	margin:20px;
+}
+.card_section{
+	width:80%;
+    height:400px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+.primary{
+	width:280px;
+	height:400px;
+	background-color:#0E7FF1;
+	border-radius:5px;
+	color:white;
+}
+.content{
+	position:relative;
+	top:25px;
+	width:200px;
+	margin:0 auto;
+	padding:15px;
+	line-height:1.5;
+	
+}
+.secondary{
+	width:250px;
+	height:300px;
+	background-color:white;
+	border-radius:10px;
+	color:white;
+	position:relative;
+	top:50px;
+	box-shadow:5px 5px 5px 5px #b8bdc2;
+
+}
+.secondary .image_section img{
+	width:30px;
+	display:flex;
+	align-items:center;
+	margin:0 auto;
+	position:relative;
+	top:30px;
+	
+}
+.secondary .content{
+	color:black;
+	text-align:center;
+	margin:0 auto;
+}
+.secondary .content p{
+	color:gray;
+	margin:5px;
+}
+.success{
+	width:250px;
+	height:300px;
+	background-color:white;
+	border-radius:10px;
+	color:white;
+	position:relative;
+	top:50px;
+	box-shadow:5px 5px 5px 5px #b8bdc2;
+
+}
+.success .image_section img{
+	width:30px;
+	display:flex;
+	align-items:center;
+	margin:0 auto;
+	position:relative;
+	top:30px;
+	
+}
+.success .content{
+	color:black;
+	text-align:center;
+	margin:0 auto;
+}
+.success .content p{
+	color:gray;
+	margin:5px;
+}
+.warning{
+	width:250px;
+	height:300px;
+	background-color:white;
+	border-radius:10px;
+	color:white;
+	position:relative;
+	top:50px;
+	box-shadow:5px 5px 5px 5px #b8bdc2;
+
+}
+.warning .image_section img{
+	width:30px;
+	display:flex;
+	align-items:center;
+	margin:0 auto;
+	position:relative;
+	top:30px;
+	
+}
+.warning .content{
+	color:black;
+	text-align:center;
+	margin:0 auto;
+}
+.warning .content p{
+	color:gray;
+	margin:5px;
+}
